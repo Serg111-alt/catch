@@ -13,7 +13,7 @@ class NegativeValue extends Exception {
 	public function __toString() {
 		return "Исключение " . $this->getCode () . ": " . $this->getMessage () . "\n" 
 				. " в " . $this->getFile () . ", строка " . $this->getLine () . "\n" 
-				. "значение x:" . $this->value;
+				. "значение a:" . $this->value;
 	}
 }
 
